@@ -1,0 +1,26 @@
+@relation MyDataSet
+
+@attribute Name string
+@attribute Type1 { Fire, Water, Grass, Psychic, Fighting, Poison, Fairy, Dragon, Steel, Electric, Bug, Normal, Rock, Ground, Dark, Ice, Ghost, Flying }
+@attribute Type2 { None, Fire, Water, Grass, Psychic, Fighting, Poison, Fairy, Dragon, Steel, Electric, Bug, Normal, Rock, Ground, Dark, Ice, Ghost, Flying }
+@attribute HP NUMERIC
+@attribute Attack NUMERIC
+@attribute Defence NUMERIC
+@attribute G-MaxForm { Yes, No }
+
+@data
+Charizard, Fire, Flying, 78, 84, 78, Yes
+Lycanroc-Dusk, Rock, None, 75, 117, 65, No
+Noivern, Dragon, Flying, 85, 70, 80, No
+Mightyena, Dark, None, 70, 90, 70, No
+Pikachu, Electric, None, 35, 55, 40, Yes 
+Camerupt, Fire, Ground, 70, 100, 70, No
+Manectric, Electric, None, 70, 75, 60, No
+Lugia, Psychic, Flying, 106, 90, 130, No
+Zamazenta-Crowned, Fighting, Steel, 92, 130, 145, No
+Wigglytuff, Fairy, Normal, 140, 70, 45, No
+Appletun, Dragon, Grass, 110, 85, 80, Yes
+Swampert, Water, Ground, 100, 110, 90, No
+Basculegion, Water, Ghost, 120, 112, 65, No
+Typhlosion-Hisuian, Fire, Ghost, 73, 84, 78, No
+Goodra-Hisuian, Steel, Dragon, 80, 100, 100, No
