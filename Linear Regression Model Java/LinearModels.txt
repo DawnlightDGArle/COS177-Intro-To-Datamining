@@ -1,0 +1,7 @@
+The results between the Linear Regression, Simple Linear Regression and
+Multilayer Perceptron vary slightly among each other. The Linear Regression
+was the fastest, compiling and creating a model in 0.35 seconds while the slowest
+was the Multilayer Perceptron at 2.06 seconds. The Linear Regression had the lowest
+mean error percentage while the Multilayer Perceptron had the highest mean error
+percentage. The Simple Linear Regression seems to be the easiest model to interpret
+data from and translate into something different.
