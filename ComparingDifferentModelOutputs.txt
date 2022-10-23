@@ -1,0 +1,69 @@
+The iris dataset compares and measures the sepal length, sepal width,
+petal length, petal width and class of human irises. 
+
+ZeroR
+The ZeroR classifier was the least accurate, outputting a 33.3% rate of 
+correctly classified instances and 66.6% incorrectly classified instances 
+across 150 total instances. The kappa statistic for this classifier totaled
+out to 0.
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Iris-setosa
+ 50  0  0 |  b = Iris-versicolor
+ 50  0  0 |  c = Iris-virginica
+
+BayesNet
+The BayesNet classifier was among the most accurate of the classifiers, with
+a 92.6% accuracy rate across correctly classified instances with a mere 7.3%
+incorrectly classified instances. The kappa statistic for this classifier came
+out to 0.89.
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Iris-setosa
+  0 44  6 |  b = Iris-versicolor
+  0  5 45 |  c = Iris-virginica
+
+Logistic
+The Logistic classifier was tied with the last three classifiers for the most
+accurate of all the classifiers, with a 96% accuracy rate and a 4% incorrectly
+classified instances rate. The kappa statistic for this classifier equaled 0.94.
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Iris-setosa
+  0 46  4 |  b = Iris-versicolor
+  0  2 48 |  c = Iris-virginica
+
+Attribute Selected Classifier
+The Attribute Selected Classifier had an overall accuracy of 96% with an incorrectly
+classified instances rate of 4%. This classifier's kappa statistic is also 0.94.
+
+  a  b  c   <-- classified as
+ 49  1  0 |  a = Iris-setosa
+  0 47  3 |  b = Iris-versicolor
+  0  2 48 |  c = Iris-virginica
+  
+Decision Table
+The Decision Table classifier hd an accuracy of 96% as well as an incorrectly classified
+instances rate of 4% and a kappa statistic of 0.94.
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Iris-setosa
+  0 49  1 |  b = Iris-versicolor
+  0  5 45 |  c = Iris-virginica
+  
+Hoeffding Tree
+The Hoeffding Tree classifier had an overall accuracy of 96% and an incorrectly classified
+instances rate of 4% and a kappa statistic of 0.94.
+
+a  b  c   <-- classified as
+ 50  0  0 |  a = Iris-setosa
+  0 47  3 |  b = Iris-versicolor
+  0  3 47 |  c = Iris-virginica
+  
+Overall, the models output by each of these methods were easy to understand based on
+the confusion matrixes outputted. It's clear how each of the different clsssifiers went
+through and organised the data based on the attributes. The most accurate
+classifier was a 4-way tie between the Hoeffding Tree, the Decision Table,
+the Attribute Selected Classifier and the Logistic classifier. The ZeroR was
+the least accurate by farm with a measely 33.3% accuracy rate compared to the 90+%
+accuracies output by the other classifiers.
